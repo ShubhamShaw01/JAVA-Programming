@@ -26,7 +26,7 @@ class point3D extends point2D{
 public class DistanceTwopoints {
     public static void main(String[] args) {
         Scanner sc =new Scanner(System.in);
-        System.out.println("Enter 1 for distance for 1d \n 2 for 3d");
+        System.out.println("Enter 1 for distance for 2d \n 2 for 3d");
         System.out.print("Enter your choice : ");
         int choice=sc.nextInt();
         switch (choice){
